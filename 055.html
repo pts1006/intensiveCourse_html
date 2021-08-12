@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<!-- 외부 스타일 시트를 정의하는 위치가 중요 -->
+	<!-- 링크가 이 자리에 오면 빨간 글씨 -->
+	<style>
+		p { color : blue; }
+		<!-- 여기에 !important를 쓰면 무조건 파란 글씨 나옴 -->
+		p { color : yellow; }
+		p { color : red; }
+	</style>
+	<link type = "text/css" rel = "stylesheet" href = "css_override.css"></link>
+	<!-- 링크가 이 자리에 오면 초록 글씨 -->
+</head>
+<body>
+	<p>CSS가 중복 정의된 경우 어떤 것이 적용될까?</p>
+</body>
+</html>
