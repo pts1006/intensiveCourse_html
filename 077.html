@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>테두리 간격 설정하기 예제</title>
+	<style>
+		<!--
+		TH.title {
+			width : 100px;
+			height : 50px;
+		}
+		.ls { letter-spacing : 0.5em }
+		.ws { word-spacing : 0.5em }
+		-->
+	</style>
+</head>
+<body>
+	<table border = "1">
+		<tr>
+			<th class = "title">이름</th>
+			<th>영어</th><th>수학</th>
+		</tr>
+		<tr>
+			<td>홍길동</td>
+			<td>90</td><td>80</td>
+		</tr>
+		<tr>
+			<td>장길산</td>
+			<td>95</td><td>90</td>
+		</tr>
+	</table>
+	<br>
+	<hr>
+	<h3>letter-spacing</h3>
+	<p>
+		letter-spacing : normal<br>
+		<span class = "ls">letter-spacing : 0.5em</span>
+	</p>
+	<h3>word-spacing</h3>
+	<p>
+		word spacing : normal<br>
+		<span class = "ws">
+		word spacing : 0.5em</span>
+	</p>
+</body>
+</html>
