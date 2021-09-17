@@ -1,0 +1,27 @@
+#main {
+	font-size : 15px;
+	color : #8b4513;
+}
+
+#main div p {
+	color : white;
+	background-color : #8b4513;
+}
+
+#main div h3 {
+	background-color : yellow;
+}
+
+div > i {
+	color : blue;
+	font-size : 30px;
+}
+
+#main > div > h3 { color : black; }
+
+ul > li { color : black; }
+
+li + li + li {
+	color : green;
+}
+
