@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<style>
+		table {
+			font-size : 12px;
+		}
+		th {
+			background-color :  #ffebcd;
+			width : 20%
+		}
+		
+		td {
+			width : 80%;
+		}
+
+	</style>
+</head>
+<body>
+	<div class = ex_1>
+		<table rules = "all" frame = "above" cellpadding = "10">
+			<tr>
+				<th>
+					이름<font color = "#cc3d3d">*</font>
+				</th>
+				<td><input type = "text" name = "name" size = "20"></td>
+			</tr>
+
+			<tr>
+				<th>
+					아이디<font color = "#cc3d3d">*</font>
+				</th>
+				<td><input type = "text" name = "id" size = "20">  <b>ID는 영문자와 숫자만 사용할 수 있습니다.</b></td>
+			</tr>
+
+			<tr>
+				<th>
+					비밀번호<font color = "#cc3d3d">*</font>
+				</th>
+				<td><input type = "text" name = "pw" size = "20"></td>
+			</tr>
+
+			<tr>
+				<th>
+					비밀번호확인<font color = "#cc3d3d">*</font>
+				</th>
+				<td><input type = "text" name = "pwc" size = "20"></td>
+			</tr>
+
+			<tr>
+				<th>
+					생년월일<font color = "#cc3d3d">*</font>
+				</th>
+				<td>
+					<select name = "year">
+						<option value = "" selected>년도 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+						<option value = "1990">1990</option>
+						<option value = "1991">1991</option>
+					</select>
+					<select name = "month">
+						<option value = "" selected>월 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+						<option value = "01">01</option>
+						<option value = "02">02</option>
+					</select>
+					<select name = "day">
+						<option value = "" selected>일 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+						<option value = "01">01</option>
+						<option value = "02">02</option>
+					</select>
+					<font color = "deb887">* 신분증에 기재된 성명, 생년월일, 성별을 입력해 주세요.</font>
+				</td>
+			</tr>
+
+			<tr>
+				<th>
+					성별<font color = "#cc3d3d">*</font>
+				</th>
+				<td>
+					<input type = "radio" name = "gender" value = "male">남
+					<input type = "radio" name = "gender" value = "female">여
+				</td>
+			</tr>
+
+			<tr>
+				<th>
+					이메일<font color = "#cc3d3d">*</font>
+				</th>
+				<td>
+					<input type = "text" name = "pwc" size = "35">
+					<font color = "deb887"> * 본인확인 및 아이디/비번찾기에 사용됩니다.</font>
+				</td>
+			</tr>
+
+			<tr>
+				<th>
+					전화번호<font color = "blue">*</font>
+				</th>
+				<td>
+					<select name = "phone">
+						<option value = "" selected>선택 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+						<option value = "053">053</option>
+						<option value = "054">054</option>
+					</select>
+					<input type = "text" name = "num" size = "5"> -
+					<input type = "text" name = "num" size = "5">
+					<font color = "blue"> * 전화 또는 휴대폰번호중 택 1은 필수사항입니다.</font>
+				</td>
+			</tr>
+
+			<tr>
+				<th>
+					휴대폰번호<font color = "blue">*</font>
+				</th>
+				<td>
+					<select name = "cell">
+						<option value = "" selected>선택 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+						<option value = "010">010</option>
+						<option value = "000">000</option>
+					</select>
+					<input type = "text" name = "cell_num" size = "5"> -
+					<input type = "text" name = "cell_num" size = "5">
+				</td>
+			</tr>
+		</table>
+</body>
+</html>
